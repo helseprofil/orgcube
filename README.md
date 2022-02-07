@@ -1,2 +1,2 @@
 # orgcube
-Expending aggregate function to orgdata
+Expending aggregate function of orgdata
