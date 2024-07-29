@@ -1,0 +1,26 @@
+Package: orgcube
+Title: Data processing for public health profiles
+Version: 0.0.0.9000
+Authors@R: 
+    person("Vegard", "Lysne", , "vegard.lysne@helsedir.no", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0816-5075"))
+Description: Aggregate, process, and formats data for publication
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    collapse (>= 2.0.0),
+    data.table (>= 1.15.0),
+    DBI (>= 1.2.0),
+    duckdb,
+    fs (>= 1.6.0),
+    haven (>= 2.5.0),
+    orgdata (>= 1.4.9),
+    pak (>= 0.7.0),
+    usethis
+Suggests: 
+    intervals (>= 1.5.0),
+    stringr (>= 1.5.0),
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
